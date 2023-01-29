@@ -1,7 +1,12 @@
 
 public class TesteContas {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SaldoInsuficienteException {
+		
+		
+		
+		ContaCorrente outraa = null;
+		outraa.deposita(200.0);
 		
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
